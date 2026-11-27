@@ -25,3 +25,7 @@
 *.aab
 *.unitypackage
 crashlytics-build.properties
+
+# Python
+__pycache__/
+*.pyc
