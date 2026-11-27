@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd890d2ab8f5427c4143b3e788f37dc, type: 3}
+  m_Name: Quest_boss_hunter
+  m_EditorClassIdentifier: 
+  id: "boss_hunter"
+  title: "Boss Hunter"
+  description: "Defeat 3 bosses."
+  goal: 1
+  target: 3
+  goldReward: 800
+  rewardItem: {fileID: 11400000, guid: 294cdc11c3204a6cfa989dc338c0a712, type: 2}

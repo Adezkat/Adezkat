@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6fb17e7c610e9c5e07462136f20e8ef, type: 3}
+  m_Name: Monster_goblin_warchief
+  m_EditorClassIdentifier: 
+  id: "goblin_warchief"
+  displayName: "Grubnak the Warchief"
+  behaviour: 3
+  baseStats:
+    maxHealth: 1500
+    attack: 32
+    defense: 15
+    moveSpeed: 3.4
+    critChance: 0.1
+    critDamage: 0.5
+    attackSpeed: 1
+    lifesteal: 0
+  aggroRange: 60
+  attackRange: 2.6
+  attackCooldown: 1.7
+  projectileSpeed: 12
+  projectileColor: {r: 1, g: 0.4, b: 0.1, a: 1}
+  summon: {fileID: 11400000, guid: bc86562a291ba732d0014bd029059d75, type: 2}
+  xpReward: 150
+  goldMin: 50
+  goldMax: 90
+  loot:
+  - item: {fileID: 11400000, guid: 1fb812220c7893f6c082ee15759cb023, type: 2}
+    chance: 0.5
+  - item: {fileID: 11400000, guid: f499854c33b0760a24d94bb880b913b2, type: 2}
+    chance: 0.4
+  - item: {fileID: 11400000, guid: 294cdc11c3204a6cfa989dc338c0a712, type: 2}
+    chance: 0.5
+  look:
+    primaryColor: {r: 0.5, g: 0.25, b: 0.15, a: 1}
+    secondaryColor: {r: 0.3, g: 0.2, b: 0.12, a: 1}
+    skinColor: {r: 0.45, g: 0.62, b: 0.3, a: 1}
+    hairColor: {r: 0.2, g: 0.12, b: 0.08, a: 1}
+    eyeColor: {r: 1, g: 0.8, b: 0.1, a: 1}
+    headStyle: 3
+    scale: 1.8
+    bulk: 1.4
+    cape: 1
+  prefab: {fileID: 0}

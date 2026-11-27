@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6942ea77391a84642e08dc187df2db, type: 3}
+  m_Name: Hero_nessa
+  m_EditorClassIdentifier: 
+  id: "nessa"
+  displayName: "Nessa Fen"
+  title: "Marsh Warden"
+  heroClass: 3
+  rarity: 0
+  lore: "Nessa can track a heron through fog by the ripples it leaves. Poachers learn this too late."
+  unlockCost: 600
+  baseStats:
+    maxHealth: 700
+    attack: 60
+    defense: 22
+    moveSpeed: 6
+    critChance: 0.12
+    critDamage: 0.6
+    attackSpeed: 1.05
+    lifesteal: 0
+  growthPerLevel:
+    maxHealth: 55
+    attack: 6
+    defense: 2
+    moveSpeed: 0
+    critChance: 0
+    critDamage: 0
+    attackSpeed: 0
+    lifesteal: 0
+  startingWeapon: {fileID: 11400000, guid: 2861657ef1ede62c02148c35fb8dbc66, type: 2}
+  skill: {fileID: 11400000, guid: c7fb53cb1e54e68b94642175b10cd870, type: 2}
+  look:
+    primaryColor: {r: 0.31, g: 0.42, b: 0.23, a: 1}
+    secondaryColor: {r: 0.22, g: 0.2, b: 0.15, a: 1}
+    skinColor: {r: 0.85, g: 0.64, b: 0.49, a: 1}
+    hairColor: {r: 0.35, g: 0.22, b: 0.12, a: 1}
+    eyeColor: {r: 0.08, g: 0.08, b: 0.08, a: 1}
+    headStyle: 1
+    scale: 1
+    bulk: 0.9
+    cape: 0
+  prefab: {fileID: 0}

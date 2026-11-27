@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6fb17e7c610e9c5e07462136f20e8ef, type: 3}
+  m_Name: Monster_shade_stalker
+  m_EditorClassIdentifier: 
+  id: "shade_stalker"
+  displayName: "Shade Stalker"
+  behaviour: 2
+  baseStats:
+    maxHealth: 300
+    attack: 45
+    defense: 12
+    moveSpeed: 4.6
+    critChance: 0.15
+    critDamage: 0.6
+    attackSpeed: 1
+    lifesteal: 0
+  aggroRange: 22
+  attackRange: 2
+  attackCooldown: 1.4
+  projectileSpeed: 12
+  projectileColor: {r: 1, g: 0.4, b: 0.1, a: 1}
+  summon: {fileID: 0}
+  xpReward: 40
+  goldMin: 6
+  goldMax: 14
+  loot:
+  - item: {fileID: 11400000, guid: 0f0bd68c5affa17032148f866c042468, type: 2}
+    chance: 0.04
+  - item: {fileID: 11400000, guid: fbee359797d1d98eabdb569eb8240f5e, type: 2}
+    chance: 0.03
+  - item: {fileID: 11400000, guid: 1f5beb935b2665a6eefad32aad3aab7c, type: 2}
+    chance: 0.05
+  look:
+    primaryColor: {r: 0.15, g: 0.1, b: 0.2, a: 1}
+    secondaryColor: {r: 0.08, g: 0.06, b: 0.1, a: 1}
+    skinColor: {r: 0.3, g: 0.25, b: 0.4, a: 1}
+    hairColor: {r: 0.1, g: 0.08, b: 0.12, a: 1}
+    eyeColor: {r: 0.75, g: 0.4, b: 1, a: 1}
+    headStyle: 1
+    scale: 1.05
+    bulk: 0.85
+    cape: 1
+  prefab: {fileID: 0}

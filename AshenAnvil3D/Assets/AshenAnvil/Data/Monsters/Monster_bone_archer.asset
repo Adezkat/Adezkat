@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6fb17e7c610e9c5e07462136f20e8ef, type: 3}
+  m_Name: Monster_bone_archer
+  m_EditorClassIdentifier: 
+  id: "bone_archer"
+  displayName: "Bone Archer"
+  behaviour: 1
+  baseStats:
+    maxHealth: 160
+    attack: 24
+    defense: 8
+    moveSpeed: 3.2
+    critChance: 0.1
+    critDamage: 0.5
+    attackSpeed: 1
+    lifesteal: 0
+  aggroRange: 24
+  attackRange: 13
+  attackCooldown: 2
+  projectileSpeed: 16
+  projectileColor: {r: 0.6, g: 1, b: 0.6, a: 1}
+  summon: {fileID: 0}
+  xpReward: 20
+  goldMin: 3
+  goldMax: 8
+  loot:
+  - item: {fileID: 11400000, guid: 2861657ef1ede62c02148c35fb8dbc66, type: 2}
+    chance: 0.03
+  - item: {fileID: 11400000, guid: 5a17eb798132975bf87fdc81cf68b280, type: 2}
+    chance: 0.04
+  - item: {fileID: 11400000, guid: 4fa8cade2c2fe8c73bc73b2db6320724, type: 2}
+    chance: 0.05
+  look:
+    primaryColor: {r: 0.35, g: 0.32, b: 0.25, a: 1}
+    secondaryColor: {r: 0.22, g: 0.2, b: 0.16, a: 1}
+    skinColor: {r: 0.86, g: 0.83, b: 0.72, a: 1}
+    hairColor: {r: 0.86, g: 0.83, b: 0.72, a: 1}
+    eyeColor: {r: 0.4, g: 1, b: 0.5, a: 1}
+    headStyle: 6
+    scale: 1
+    bulk: 0.85
+    cape: 0
+  prefab: {fileID: 0}

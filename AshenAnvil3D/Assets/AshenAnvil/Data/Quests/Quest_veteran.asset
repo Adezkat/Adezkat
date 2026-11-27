@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd890d2ab8f5427c4143b3e788f37dc, type: 3}
+  m_Name: Quest_veteran
+  m_EditorClassIdentifier: 
+  id: "veteran"
+  title: "Veteran"
+  description: "Raise a hero to level 10."
+  goal: 5
+  target: 10
+  goldReward: 1000
+  rewardItem: {fileID: 11400000, guid: fbee359797d1d98eabdb569eb8240f5e, type: 2}
