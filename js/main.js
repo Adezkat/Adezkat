@@ -585,7 +585,7 @@ App.init = () => {
 };
 ACT.welcomeCollect = () => { U.closeModal(); ACT.collectAfk(); };
 
-if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+if ('serviceWorker' in navigator && location.protocol.startsWith('http') && !window.Capacitor) {
   window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => { }));
 }
 window.addEventListener('DOMContentLoaded', App.init);

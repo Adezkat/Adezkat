@@ -5,7 +5,10 @@ An original dark-fantasy **idle RPG** for Android phones (and any mobile browser
 ## Play
 - **Local:** serve the folder with any static server (`python3 -m http.server`) and open `index.html` on your phone.
 - **Install on Android:** host it (e.g. GitHub Pages), open it in Chrome and choose *Add to Home screen*. It runs full-screen and works offline (PWA).
-- **Native APK:** wrap it with Capacitor (`npx cap init`, set `webDir` to this folder, `npx cap add android`, `npx cap open android`).
+- **Native APK (Capacitor):** the `android/` project is already set up.
+  - *Automatic:* every push runs the **Build Android APK** GitHub Action. Download `AshenAnvil-apk` from the run's Artifacts, unzip it and install the `.apk` on your phone (allow installs from unknown sources).
+  - *Local:* with Node 22, JDK 21 and the Android SDK installed, run `npm ci && npm run apk:debug`. The APK is written to `android/app/build/outputs/apk/debug/`. Or run `npm run sync && npx cap open android` to open it in Android Studio.
+  - After editing the game files, run `npm run sync` to copy them into the Android project.
 
 Progress saves automatically in local storage. Use Settings to export or import a save code.
 

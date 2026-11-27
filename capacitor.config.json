@@ -1,0 +1,8 @@
+{
+  "appId": "com.ashenanvil.idlelegends",
+  "appName": "Ashen Anvil",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#0b0910"
+  }
+}
