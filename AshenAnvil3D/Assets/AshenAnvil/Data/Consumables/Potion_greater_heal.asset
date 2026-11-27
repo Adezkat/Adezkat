@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f311688a2b20c5da1c7cb2aab8bca0da, type: 3}
+  m_Name: Potion_greater_heal
+  m_EditorClassIdentifier: 
+  id: "greater_heal"
+  displayName: "Greater Healing Draught"
+  description: "Restores most of your health."
+  rarity: 1
+  icon: {fileID: 0}
+  tint: {r: 1, g: 0.35, b: 0.5, a: 1}
+  sellPrice: 12
+  maxStack: 99
+  effect: 0
+  amount: 0.7
+  duration: 0

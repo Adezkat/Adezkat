@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f28af9895496ec9d151150f0856527, type: 3}
+  m_Name: Weapon_alley_fang
+  m_EditorClassIdentifier: 
+  id: "alley_fang"
+  displayName: "Alley Fang"
+  description: "Thin, quick and entirely without honour."
+  rarity: 1
+  icon: {fileID: 0}
+  tint: {r: 0.7, g: 0.6, b: 0.95, a: 1}
+  sellPrice: 60
+  maxStack: 1
+  weaponType: 2
+  baseAttack: 15
+  attackSpeed: 1.2
+  bonusStats:
+  - stat: 4
+    value: 0.05
+    percent: 0
+  modelPrefab: {fileID: 0}

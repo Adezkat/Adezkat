@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6fb17e7c610e9c5e07462136f20e8ef, type: 3}
+  m_Name: Monster_ember_golem
+  m_EditorClassIdentifier: 
+  id: "ember_golem"
+  displayName: "Ember Golem"
+  behaviour: 0
+  baseStats:
+    maxHealth: 900
+    attack: 55
+    defense: 40
+    moveSpeed: 2.6
+    critChance: 0.05
+    critDamage: 0.5
+    attackSpeed: 1
+    lifesteal: 0
+  aggroRange: 18
+  attackRange: 2.6
+  attackCooldown: 2.2
+  projectileSpeed: 12
+  projectileColor: {r: 1, g: 0.4, b: 0.1, a: 1}
+  summon: {fileID: 0}
+  xpReward: 60
+  goldMin: 10
+  goldMax: 22
+  loot:
+  - item: {fileID: 11400000, guid: a7fcd4874c9d766b926f29bc3a3b3795, type: 2}
+    chance: 0.04
+  - item: {fileID: 11400000, guid: e82fb14aa38768953537bddc1545ba23, type: 2}
+    chance: 0.01
+  - item: {fileID: 11400000, guid: b65254e197f2833393dbb1a5b8482519, type: 2}
+    chance: 0.03
+  - item: {fileID: 11400000, guid: 1df7b6e283a39179545c1852f21b6008, type: 2}
+    chance: 0.02
+  look:
+    primaryColor: {r: 0.25, g: 0.22, b: 0.21, a: 1}
+    secondaryColor: {r: 0.9, g: 0.35, b: 0.1, a: 1}
+    skinColor: {r: 0.3, g: 0.27, b: 0.25, a: 1}
+    hairColor: {r: 0.9, g: 0.35, b: 0.1, a: 1}
+    eyeColor: {r: 1, g: 0.45, b: 0.1, a: 1}
+    headStyle: 2
+    scale: 1.7
+    bulk: 1.7
+    cape: 0
+  prefab: {fileID: 0}

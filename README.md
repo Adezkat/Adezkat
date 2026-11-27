@@ -1,5 +1,7 @@
 # Ashen Anvil: Idle Legends
 
+> **New:** a full **3D Unity version** (action RPG for Android, Unity 2022.3 + URP + C#) lives in [`AshenAnvil3D/`](AshenAnvil3D/README.md).
+
 An original dark-fantasy **idle RPG** for Android phones (and any mobile browser): hero collection, equipment forging, auto-battles, PvP arena and guilds.
 
 ## Play

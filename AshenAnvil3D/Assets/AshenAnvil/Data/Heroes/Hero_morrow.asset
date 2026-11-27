@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6942ea77391a84642e08dc187df2db, type: 3}
+  m_Name: Hero_morrow
+  m_EditorClassIdentifier: 
+  id: "morrow"
+  displayName: "Morrow Dusk"
+  title: "Alley Knife"
+  heroClass: 1
+  rarity: 1
+  lore: "Born in the gutters below the Anvil, Morrow learned that the quickest blade settles every debt."
+  unlockCost: 1500
+  baseStats:
+    maxHealth: 792
+    attack: 70.4
+    defense: 26.4
+    moveSpeed: 6.6
+    critChance: 0.2
+    critDamage: 0.7
+    attackSpeed: 1.25
+    lifesteal: 0
+  growthPerLevel:
+    maxHealth: 55
+    attack: 6
+    defense: 2
+    moveSpeed: 0
+    critChance: 0
+    critDamage: 0
+    attackSpeed: 0
+    lifesteal: 0
+  startingWeapon: {fileID: 11400000, guid: 793c1a7ee28b4b847bc355bf23916bbb, type: 2}
+  skill: {fileID: 11400000, guid: 3e3545ab4eb5c86c01fe47c50622fcb6, type: 2}
+  look:
+    primaryColor: {r: 0.2, g: 0.17, b: 0.25, a: 1}
+    secondaryColor: {r: 0.12, g: 0.1, b: 0.14, a: 1}
+    skinColor: {r: 0.8, g: 0.62, b: 0.5, a: 1}
+    hairColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+    eyeColor: {r: 0.7, g: 0.45, b: 1, a: 1}
+    headStyle: 1
+    scale: 1
+    bulk: 0.85
+    cape: 1
+  prefab: {fileID: 0}
